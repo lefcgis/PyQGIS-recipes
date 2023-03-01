@@ -1,0 +1,1 @@
+layer.selectByExpression(" \"nombdep\" = 'CUSCO' ")
