@@ -1,0 +1,1 @@
+processing.run("native:reprojectlayer", {'INPUT':'C:\\Users\\lferrer\\OneDrive - Walsh Peru S.A\\Escritorio\\aia_ajust.shp','TARGET_CRS':QgsCoordinateReferenceSystem('EPSG:32718'),'OPERATION':'+proj=pipeline +step +proj=unitconvert +xy_in=deg +xy_out=rad +step +proj=utm +zone=18 +south +ellps=WGS84','OUTPUT':'TEMPORARY_OUTPUT'})
